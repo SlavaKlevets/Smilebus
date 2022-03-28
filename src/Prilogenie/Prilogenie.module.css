@@ -1,0 +1,42 @@
+.wrap{
+    width: 90%;
+    border-top: 1px solid #b2aeae;
+    margin: 0 auto;
+    justify-content: center;
+}
+.ptitem{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.novosty{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.cartsmart{
+    width: 40%;
+}
+.img{
+    position: relative;
+    padding: 20px;
+    width: 80%;
+}
+.smart{
+    padding-top: 100px;
+    font-size: 32px;
+}
+.butStor{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.butStor:hover{
+    cursor: pointer;
+}

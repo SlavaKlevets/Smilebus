@@ -1,0 +1,14 @@
+.textarea1{
+    border: 5px solid red;
+    border-radius: 10px;
+    height: 15px;
+}
+
+.err{
+    color:red;
+}
+.normal{
+    border-radius: 10px;
+    height: 15px;
+    border:1px solid #00bda4;
+}

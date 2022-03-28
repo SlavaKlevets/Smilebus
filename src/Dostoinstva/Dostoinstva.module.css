@@ -1,0 +1,41 @@
+.svg1{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.path1 .elsvgicon{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.ptitem{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tmadvantages{
+    width: 150px;
+    display: block;
+    position: relative;
+    padding: 5px;
+}
+.tmadvantages2{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.eltitletext{
+    text-align: center;
+}
+@media (max-width: 1370px) {
+    .ptitem{
+        width: 50%;
+    }
+}

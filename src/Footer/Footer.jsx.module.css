@@ -1,0 +1,103 @@
+.wrapper{
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vk{
+    display: flex;
+}
+svg{
+    width: 50px;
+}
+wrapper>h1{
+    color:white;
+    font-size: 20px;
+}
+wrapper>span{
+    color: white;
+    font-size: 20px;
+}
+.wrap1{
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.wrap11{
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    height: 200px;
+    border-bottom: 1px solid #b2aeae;
+}
+.wrap12{
+    width: 30%;
+    padding-left: 40px;
+    color:white;
+}
+.wrap13{
+    width: 30%;
+}
+.wrap13>ul>li>a:hover{
+    color: #ec700a;
+    cursor: pointer;
+}
+.wrap14>ul>li>a:hover {
+    color: #ec700a;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.wrap14{
+    width: 30%;
+}
+.wrap2{
+    width: 30%;
+    display: flex;
+}
+.wrap3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    height: 100px;
+    color:#d2d0d0;
+}
+.wrap3>span:hover{
+    color: #ec700a;
+    cursor: pointer;
+}
+.wrap3>img{
+    width: 40px;
+    height: 33px;
+}
+.wrap3>img:hover{
+    cursor: pointer;
+}
+img{
+    border-radius: 10px;
+}
+.iosAndroid{
+    display: block;
+    width: 200px;
+    color: #c9c5c5;
+    position: relative;
+    top:50px;
+}
+.iosAndroid:hover{
+    cursor: pointer;
+}
+.vk span svg{
+    fill:white;
+}
+.vk span svg:hover{
+    fill:coral;
+}

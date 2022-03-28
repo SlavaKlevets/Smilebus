@@ -1,0 +1,60 @@
+.spanImg{
+    display: block;
+    width: 300px;
+}
+
+.contaktImg{
+    position: relative;
+    left:500px;
+    padding-right: 40px;
+    top:80px;
+}
+
+.contakt{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.ptitem{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ptitem1{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ptitem2{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.vnimanie2{
+    color: #ec700a;
+}
+
+.dannye{
+    color: #101010;
+}
+
+.dannye2{
+font-size: 40px;
+}

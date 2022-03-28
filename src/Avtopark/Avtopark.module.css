@@ -1,0 +1,32 @@
+.wrap{
+    width: 90%;
+    border-top: 1px solid #b2aeae;
+    margin: 0 auto;
+    justify-content: center;
+}
+.ptitem{
+    width: 100%;
+    height: auto;
+}
+
+.novosty{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.img{
+    width: 20%;
+    cursor: pointer;
+}
+
+.img:hover{
+    opacity:0.6;
+}

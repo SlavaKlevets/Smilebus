@@ -1,0 +1,80 @@
+.wrap{
+    padding: 10px;
+}
+.ptitem{
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto ;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.wrapper{
+    width: 400px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #d2d0d0;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.wrapper:hover{
+    border: 2px solid #ec700a;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    transition: 0.6s;
+    transform: translateY(-3px);
+}
+
+.wrapper1{
+    display: flex;
+    width: 100%;
+}
+.wrapper2{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+}
+.marsr{
+    display: block;
+    width: 70%;
+}
+.marsr:hover{
+    cursor: pointer;
+}
+.ocenca{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.price{
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+.orange{
+    color: coral;
+    position: relative;
+}
+h1{
+    position: relative;
+    font-size: 23px;
+}
+.but{
+    position: relative;
+    border: 2px solid coral;
+    border-radius: 20px;
+    color: coral;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    left: 50px;
+}
+.but:hover{
+    color: white;
+    background-color: coral;
+}

@@ -1,0 +1,81 @@
+.wrapper1{
+    width: 77%;
+    height: 80%;
+    padding: 20px;
+    background-color: #d2d0d0;
+    border-radius:10px;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper1>span {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.bilet{
+    display: flex;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+    padding-left: 50px;
+}
+.price{
+    font-size: 30px;
+}
+.bilet1,.bilet2,.bilet3,.bilet4,.bilet5,.bilet6{
+    width: 400px;
+}
+.bilet3{
+    position: relative;
+    top:40%;
+}
+.bilet4,.bilet5,.bilet6{
+    position: relative;
+    top:30%;
+}
+
+.butZakaz{
+    position: relative;
+    right:20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ec700a;
+    font-size: 20px;
+}
+.butZakaz:hover{
+    background-color: #ec700a;
+    color: white;
+}
+.but{
+    position: relative;
+    top:35px;
+    height: 20px;
+    width: 220px;
+    right: 30px;
+    color: #989393;
+    border: none;
+    cursor: pointer;
+    background-color:white;
+    font-weight: bold;
+}
+
+.wrapper{
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.zakaz{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}

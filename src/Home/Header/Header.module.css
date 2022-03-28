@@ -1,0 +1,133 @@
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #00bda4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.wrapSmilebus{
+    height: 20px;
+    padding: 0;
+    margin:0;
+}
+.zagolovok{
+    text-align: center;
+    color:white;
+    font: inherit;
+}
+.wrapSmile{
+    display: flex;
+}
+.smilebus{
+    position: relative;
+    color: coral;
+    font-size:20px;
+    padding:0;
+    top: 10px;
+}
+.it{
+    padding:0;
+    color: darkgray;
+    position: relative;
+    top:-5px;
+}
+.ava{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid darkgray;
+    display: flex;
+}
+.initialize{
+    position: absolute;
+    margin-top:20px;
+    right: 100px;
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.initialize:hover{
+    color:coral;
+}
+.name{
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+.strelka{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 50px;
+    height:50px;
+}
+.strelka>span{
+    width: 50px;
+    position: relative;
+}
+.svg2{
+    position: relative;
+    width: 35px;
+    height:35px;
+    margin: 0 auto;
+    cursor: pointer;
+    top:5px;
+    fill: currentColor;
+}
+.svg22{
+    position: relative;
+    width: 35px;
+    height:35px;
+    margin: 0 auto;
+    cursor: pointer;
+    top:-5px;
+    fill: currentColor;
+}
+
+.ima{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 70px;
+    height:50px;
+    padding: 5px;
+}
+.ima>span{
+    position: relative;
+}
+.svg{
+    color: #ff7300;
+    margin: 10px;
+    fill: currentColor;
+    width: 50px;
+    height: 50px;
+    padding-left: 200px;
+    margin-top: 25px;
+}
+.svg3{
+    fill: currentColor;
+}
+.headbutton{
+    padding: 0;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    color:white;
+    border:1px solid white;
+    background-color: #00bda4;
+    margin-left: 50px;
+}
+.headbutton:hover{
+   background-color: black;
+}
